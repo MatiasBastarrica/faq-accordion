@@ -20,8 +20,7 @@
   padding: 0;
 }
 
-img,
-svg {
+img {
   display: block;
   max-width: 100%;
 }
@@ -30,8 +29,55 @@ ul[class] {
   list-style: none;
 }
 
+button[class] {
+  border: none;
+  background-color: inherit;
+}
+
 /* ### UTILITIES ### */
 
 .hide {
   display: none;
+}
+
+/* ### GENERAL STYLING ### */
+
+body {
+  background-color: var(--purple-100);
+  font-family: var(--ff-work-sans);
+  font-weight: var(--fw-400);
+  font-size: 1rem;
+  background-image: url(./assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  color: var(--purple-950);
+  line-height: 1.1;
+}
+
+h1 {
+  font-weight: var(--fw-700);
+  font-size: 2.225rem;
+}
+
+h2 {
+  font-weight: var(--fw-600);
+  font-size: 0.965rem;
+}
+
+p {
+  color: var(--purple-600);
+  font-size: 0.925rem;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 1.5rem;
 }
