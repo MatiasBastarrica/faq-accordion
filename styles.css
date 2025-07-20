@@ -81,3 +81,53 @@ main {
   align-items: center;
   padding-inline: 1.5rem;
 }
+
+/* ### FAQ ACCORDION ### */
+
+article.faq-section {
+  background-color: var(--white);
+  padding: 1.8rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.faq-section h1 {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.star-icon-container {
+  width: 25px;
+  height: auto;
+}
+
+.faq__accordion-list {
+  margin-top: 1rem;
+}
+
+.faq__accordion-list li {
+  padding-block: 0.5rem;
+}
+
+.faq__accordion-list > * + * {
+  border-top: 1px solid var(--purple-100);
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+}
+
+.question-container h2 {
+  margin-right: auto;
+}
+
+.question-container .accordion-btn {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.question {
+  flex-basis: 80%;
+}
