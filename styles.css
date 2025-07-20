@@ -11,3 +11,21 @@
   --fw-600: 600;
   --fw-700: 700;
 }
+
+/* ### CSS RESET ### */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul[class] {
+  list-style: none;
+}
