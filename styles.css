@@ -29,3 +29,9 @@ svg {
 ul[class] {
   list-style: none;
 }
+
+/* ### UTILITIES ### */
+
+.hide {
+  display: none;
+}
