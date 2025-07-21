@@ -1,13 +1,9 @@
 const accordionBtns = document.querySelectorAll(".accordion-btn");
-const plusIcons = document.querySelectorAll(".plus-icon");
-const minusIcons = document.querySelectorAll(".minus-icon");
-const answers = document.querySelectorAll(".answer-container");
+const listItems = document.querySelectorAll("li");
 
 function toggleHideClass(element) {
   element.classList.toggle("hide");
 }
-
-const listItems = document.querySelectorAll("li");
 
 listItems.forEach((listItem) => {
   listItem.addEventListener("click", () => {
