@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution]()
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/faq-accordion-mb-aTaLlmagEg)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/faq-accordion/)
 
 ## My process
